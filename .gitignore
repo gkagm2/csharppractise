@@ -16,3 +16,6 @@
 /.vs/practise1/v15
 /.vs/csharppractise/v15/.suo
 /.vs
+*.pdb
+/practise1/obj/Debug/netcoreapp2.1/practise1.csproj.FileListAbsolute.txt
+*.dll
