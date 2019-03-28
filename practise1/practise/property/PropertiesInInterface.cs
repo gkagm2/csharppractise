@@ -12,13 +12,28 @@ namespace practise1
             get;
             set;
             }
+        string Value
+        {
+            get;
+            set;
+        }
     }
-    string Value
+        
+    
+    class NamedValue : INameValue
     {
-        get;
-        set;
+        public string Name
+        {
+            get;
+            set;
+        }
+        public string Value
+        {
+            get;
+            set;
+        }
+            
     }
-    c
     class PropertiesInInterface
     {
 
