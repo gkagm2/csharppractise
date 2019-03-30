@@ -1,0 +1,6 @@
+IEnumerator GetEnumerator() : IEnumerator 형식의 객체를 반환
+
+메소드 또는 프로퍼티
+boolean MoveNext() : 다음 요소로 이동합니다. 컬렉션의 끝을 지난 경우에는 false, 이동이 성공한 경우에는 true를 반환.
+void Reset() : 컬렉션의 첫 번째 위치의 "앞"으로 이동한다. 첫 번째 위치가 0번이라면, Reset()을 호출하면 -1번으로 이동하는 것이다. 첫 번째 위치로의 이동은 MoveNext()를 호출한 다음에 이루어진다.
+Object Current { get; } : 컬렉션의 현재 요소를 반환한다.
