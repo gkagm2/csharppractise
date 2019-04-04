@@ -1,6 +1,8 @@
 + 식 트리(binary tree)를 다루는데 필요한 클래스들은 .NET Framework의 System.Linq.Expressions 네임스페이스 안에 준비되어 있다. 비로 "Expression 클래스와 아이들(파생 클래스들)"이다.OB
 
 + BinaryExpression
+이항 연산자를 갖는 식을 표현합니다.
++ BlockExpression
 변수를 정의할 수 있는 식을 갖는 블록을 표현한합니다.
 + ConditionalExpression
 조건 연산자가 있는 식을 나타냅니다.
