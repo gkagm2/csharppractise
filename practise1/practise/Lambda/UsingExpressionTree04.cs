@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq.Expressions; // for use tree, need this
 
-namespace practise1.practise.Lambda
+namespace practise1.practise
 {
     class UsingExpressionTree
     {
