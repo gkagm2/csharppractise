@@ -7,7 +7,7 @@ namespace practise1.practise.Delegate
     delegate void EventHandler(string message);
 
     class MyNotifier
-    {
+    { 
         public event EventHandler SomethingHappend;
         public void DoSomething(int number)
         {
