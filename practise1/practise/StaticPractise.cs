@@ -19,7 +19,5 @@ namespace practise1.practise
             TestClass testClass = new TestClass();
             TestClass testClass2 = new TestClass();
         }
-        
-        
     }
 }
